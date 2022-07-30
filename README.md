@@ -9,10 +9,10 @@ RDF triple stores in different size. Based on two selected datasets from it, the
 (?a)---follows--->(?b)---friendOf--->(?c)---likes--->(?d)---hasReview--->(?e)
 is to be evaluated. In the query, (?a), (?b), (?c), (?d), (?e) are variables, and follows, friendOf,
 likes, hasReview are properties. The answer of the query is the list of mapped values of all the variables
-(?a), (?b), (?c), (?d), (?e). <br> <b>
+(?a), (?b), (?c), (?d), (?e). <br> <br>
 
 This repo contains a jupyter notebook file with a hash join and sort merge implementation for 
-the following query on the above mentioned dataset:
+the following query on the above mentioned dataset: <br>
 SELECT follows.subject, follows.object, friendOf.object, likes.object, hasReview.object
 FROM follows, friendOf, likes, hasReview
 WHERE follows.object = friendOf.subject

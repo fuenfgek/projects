@@ -13,9 +13,9 @@ likes, hasReview are properties. The answer of the query is the list of mapped v
 
 This repo contains a jupyter notebook file with a hash join and sort merge implementation for 
 the following query on the above mentioned dataset: <br>
-SELECT follows.subject, follows.object, friendOf.object, likes.object, hasReview.object
-FROM follows, friendOf, likes, hasReview
-WHERE follows.object = friendOf.subject
-AND friendOf.object = likes.subject
-AND likes.object = hasReview.subject
+SELECT follows.subject, follows.object, friendOf.object, likes.object, hasReview.object <br>
+FROM follows, friendOf, likes, hasReview <br>
+WHERE follows.object = friendOf.subject <br>
+AND friendOf.object = likes.subject <br>
+AND likes.object = hasReview.subject <br>
 The query in the form of relational algebra is as follows:

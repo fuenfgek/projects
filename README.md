@@ -1,1 +1,1 @@
-# Advanced Databases and Information Systems Project II Implementation of Join Algorithm for SPARQL Query Processing
+# Advanced Databases and Information Systems Project II <br> Implementation of Join Algorithm <br> for SPARQL Query Processing

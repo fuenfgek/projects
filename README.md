@@ -11,7 +11,7 @@ is to be evaluated. In the query, (?a), (?b), (?c), (?d), (?e) are variables, an
 likes, hasReview are properties. The answer of the query is the list of mapped values of all the variables <br>
 (?a), (?b), (?c), (?d), (?e). <br> <br>
 
-This repo contains a jupyter notebook file with a hash join and sort merge implementation for 
+This repo contains a python file with a hash join and sort merge implementation for 
 the following query on the above mentioned dataset: <br>
 SELECT follows.subject, follows.object, friendOf.object, likes.object, hasReview.object <br>
 FROM follows, friendOf, likes, hasReview <br>
